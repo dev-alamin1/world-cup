@@ -1,0 +1,82 @@
+/* google font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lobster&family=Lobster+Two:ital@1&family=Montserrat:wght@200;400;600&family=Poppins&display=swap');
+
+/* common style */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+}
+
+
+.container{
+    width: 80%;
+    margin: 40px auto;
+}
+
+#active{
+    background-color: #fd79a8;
+}
+
+#active a{
+    color: #fff;
+}
+/* common style end */
+
+/* header section style end */
+
+header{
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+}
+
+
+.banner .banner-info{
+    padding-left: 79px;
+    padding-right: 44px;
+    width: 40%;
+}
+
+
+.banner-image{
+    width: 40%;
+}
+.banner .banner-image img{
+    width: 100%;
+    padding-right: 60px;
+}
+
+.watch-btn{
+    background-color: #fd79a8;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    opacity: 0.8;
+    transition: opacity .5s, letter-spacing 0.5s;
+    
+ 
+}
+
+
+.watch-btn:hover{
+   opacity: 1;
+   letter-spacing: 1px;
+}
+
+.watch-btn .fa-solid{
+    color: #fff;
+    margin-left: 2px;
+}
+
+/* header style end */
+
