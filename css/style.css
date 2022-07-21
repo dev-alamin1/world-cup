@@ -218,3 +218,61 @@ section{
 
 /* main section style end */
 
+/* footer  */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+    overflow: hidden;
+
+}
+
+.goal h1{
+    color: #fff;
+}
+
+.footer-menu{
+    margin-top: 12px;
+}
+.footer-menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+hr{
+        border: 1px solid #FFFFFF;
+        width: 80%;
+}
+.footer-menu ul li{
+    margin: 0 5px;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.social-area ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.social-area ul li{
+    margin: 0 10px;
+}
+
+.social-area ul li a{
+    text-decoration: none;
+}
+
+.fa-brands{
+    color: #fff;
+}
+
+/* footer end */
+
+
